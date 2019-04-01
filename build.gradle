@@ -200,6 +200,7 @@ dependencies {
     runtimeOnly 'org.apache.logging.log4j:log4j-jul:2.11.1' // for external jars using the java.util.logging: routes logging to log4j 2
     runtimeOnly 'org.apache.logging.log4j:log4j-slf4j-impl:2.11.1' // for external jars using slf4j: routes logging to log4j 2
     runtimeOnly 'org.codeartisans.thirdparties.swing:batik-all:1.8pre-r1084380'
+    runtimeOnly 'org.postgresql:postgresql:42.2.5'
 
     // Dependencies defined by the plugins
     subprojects.each { subProject ->
