@@ -84,7 +84,7 @@ public final class ModelDataFileReader {
             dataFile.delimiter = tempStr.charAt(0);
         }
         tempStr = dataFileElement.getAttribute("start-line");
-        if (tempStr != null) {
+        if (UtilValidate.isNotEmpty(tempStr)) {
             dataFile.startLine = Integer.valueOf(tempStr);
         }
 
